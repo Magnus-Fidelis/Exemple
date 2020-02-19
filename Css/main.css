@@ -89,8 +89,7 @@ body {
   width: 100%;
   flex-direction: row;
   justify-content: center;
-  background-color: #080068;
-  opacity: 0.8;
+  background-color: rgba(8, 0, 104, 0.5);
 }
 .organisation_menu .liste_menu {
   display: flex;
@@ -106,8 +105,7 @@ body {
   width: 100%;
   flex-direction: row;
   justify-content: center;
-  background-color: #373080;
-  opacity: 0.8;
+  background-color: rgba(55, 48, 128, 0.5);
 }
 .organisation_sousmenu .liste_sousmenu {
   display: flex;
