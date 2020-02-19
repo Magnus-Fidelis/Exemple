@@ -1,0 +1,133 @@
+@import "./reset.scss";
+@import "./variable.scss";
+@import "./menu.scss";
+@import "./fontface.scss";
+
+body{
+  background-image: url("https://c.wallhere.com/photos/77/0f/Retro_style_1980s_synthwave_futuristic_science_fiction-1582073.jpg!d");
+  background-size: 100%;
+  color: white;
+}
+.titre
+{
+  margin-top: 1%;
+  font-size: 8em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+  
+}
+.neon-text{
+  font-family: neon;
+    text-shadow: 
+    .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
+    .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
+    .1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
+    .1vw 0vw   2vw #f25757, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757, 
+    .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b, 
+    .1vw 0vw   5vw #e50b0b, .2vw 0vw  20vw #e50b0b, .4vw 0vw  10vw #e50b0b,
+    .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw  10vw #e50b0b;
+    padding: 0 3.5rem 0 3.5rem;
+  
+}
+
+.neon-wrapper {
+  box-shadow:
+  0 0 0.1vw  0.4vw #fff7f7,   
+  0 0 0.4vw  0.6vw #e97272, 
+  0 0   4vw  0.4vw #e50b0b,
+  inset 0 0 1.5vw  0.4vw #e50b0b,
+  inset 0 0 0.4vw  0.2vw #e97272,
+  inset 0 0 0.5vw  0.2vw #fff7f7;
+  border-radius: 1.5rem;
+}
+
+.organisation_menu {
+  font-size: 4em;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #080068;
+  .liste_menu
+  {
+    display: flex;
+    margin-top: 1%;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  
+  }
+}
+
+.organisation_sousmenu {
+  font-size: 2.5em;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #373080;
+  .liste_sousmenu
+  {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+     li{
+       width: auto;
+       margin-left: 5%;
+     }
+  
+  }
+}
+
+.Corps_page
+{
+  margin-top: 1%;
+  font-size: 6em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+
+.neon-text_inscription{
+  font-family: neon;
+    text-shadow: 
+    .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
+    .1vw 0vw   0vw #8B2881, .2vw 0vw   0vw #8B2881, .4vw 0vw   0vw #8B2881,
+    .1vw 0vw  .1vw #8B2881, .2vw 0vw  .1vw #8B2881, .4vw 0vw  .1vw #8B2881,
+    .1vw 0vw   2vw #8B2881, .2vw 0vw   2vw #8B2881, .4vw 0vw   2vw #8B2881, 
+    .1vw 0vw   1vw #7A006E, .2vw 0vw   1vw #7A006E, .4vw 0vw   5vw #7A006E, 
+    .1vw 0vw   5vw #7A006E, .2vw 0vw  20vw #7A006E, .4vw 0vw  10vw #7A006E,
+    .1vw 0vw  10vw #7A006E, .2vw 0vw  30vw #7A006E, .4vw 0vw  10vw #7A006E;
+    padding: 0 3.5rem 0 3.5rem;
+  
+}
+
+.neon-wrapper_inscription {
+  box-shadow:
+  0 0 0.1vw  0.4vw #fff7f7,   
+  0 0 0.4vw  0.6vw #e97272, 
+  0 0   4vw  0.4vw #e50b0b,
+  inset 0 0 1.5vw  0.4vw #e50b0b,
+  inset 0 0 0.4vw  0.2vw #e97272,
+  inset 0 0 0.5vw  0.2vw #fff7f7;
+  border-radius: 1.5rem;
+
+
+}
+
+.footer{
+position: absolute;
+bottom: 0;
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin-bottom: 1%;
+font-size: 3em;
+}
+@import "./responsive.scss"; 
